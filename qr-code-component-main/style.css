@@ -1,49 +1,61 @@
 html {
     font-family: 'Outfit', sans-serif;
+    
 }
 
 body {
+    min-height: 100vh;
+    margin: 0;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     text-align: center;
-    font-size: 15px;
 }
 
 section {
-    box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.05);
-    margin: 110px auto;
-    border: 15px solid white;
-    border-radius: 15px;
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    border: 0.9em solid white;
+    border-radius: 1em;
     background-color: white;
-    width: 250px;
-    height: 400px;
+    width: 17em;
+    height: 27em;
 }
 
 img {
-    border-radius: 10px;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
+    border-radius: 0.5em;
+    width: 17em;
 }
 
-.first {
+.headLine {
     color: hsl(218, 44%, 22%);  
     font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 0.7em;
+    font-size: 1.3em;
 }
 
-.second {
+.firstParagraph {
     color: hsl(220, 15%, 55%);
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.9em;
+}
+
+footer{
+    width: 19em;
+    margin: 0 auto;
+}
+.attribution {
+    font-size: 0.67em;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
     section {
-        margin: 80px auto;
+        margin: 0 auto;
     }
 }
